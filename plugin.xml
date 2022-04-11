@@ -40,7 +40,10 @@
              <allow-navigation href="*://*.bupa.com.sa" />
         
         </config-file>
-
+         <config-file target="config.xml" parent="/*">
+            <allow-navigation href="*://*.bupa.com.sa" />
+        </config-file>
+      
         <source-file src="src/android/WhitelistPlugin.java" target-dir="src/org/apache/cordova/whitelist" />
     </platform>
 
